@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Today Newzz</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="navbar-left">
+      <h1 class="logo">📰 Today Newzz</h1>
+      <nav class="nav-links">
+  <a href="#" data-type="home">Home</a>
+  <a href="#" data-type="country" data-value="in">Indian</a>
+  <a href="#" data-type="category" data-value="sports">Sports</a>
+  <a href="#" data-type="category" data-value="technology">Tech</a>
+  <a href="#" data-type="category" data-value="entertainment">Entertainment</a>
+  <a href="#">Contact</a>
+</nav>
+    </div>
+    <div class="navbar-right">
+      <input type="text" id="searchInput" placeholder="Search news..." />
+      <div id="datetime"></div>
+    </div>
+  </header>
+
+  <!-- Main News Section -->
+  <main>
+    <section id="newsContainer" class="news-grid"></section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Today Newzz. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
